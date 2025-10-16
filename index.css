@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.large-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1B244A;
+    min-width: 50vw;
+    min-width: 600px;
+    max-width: 669px;
+    height: 40vh;
+    max-height: 550px;
+    min-height: 500px;
+    border-radius: 50px;
+}
+
+.leaderboard {
+    font-family: Verdana;
+    font-style: italic;
+    color: #10B981;
+    font-size: 30px;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    margin-top: -60px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: Verdana;
+    color: #EEEEEE;
+    font-weight: 510;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    width: 180px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.score-number, .add-number, .foul, .extra-button {
+    font-family: 'Cursed Timer ULiL';
+    text-align: center;
+}
+
+.add-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+.add-number, .foul {
+    color: #9AABD8;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #9AABD8;
+    background-color: #1B244A;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.add-number {
+    margin-right: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.extra-button {
+    font-size: 25px;
+    padding: 10px;
+    background-color: #9AABD8;
+    color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.foul {
+    color: #F94F6D;
+    border-color: #F94F6D;
+}
