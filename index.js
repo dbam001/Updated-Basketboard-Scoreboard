@@ -57,9 +57,7 @@ function updateLead() {
         leadTeam.textContent = "Guest is in the lead!"
     } else if (homeScoreNumber > guestScoreNumber) {
         leadTeam.textContent = "Home is in the lead!"
-    } else if (homeScoreNumber === guestScoreNumber && homeScoreNumber !== 0) {
+    } else if (homeScoreNumber === guestScoreNumber) {
         leadTeam.textContent = "It's neck and neck!"
-    } else {
-        leadTeam.textContent = "Let the games begin!"
-    }
+    } 
 }
