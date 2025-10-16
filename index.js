@@ -39,6 +39,7 @@ function newGame() {
     homeScore.textContent = homeScoreNumber
     guestScoreNumber = 0
     guestScore.textContent = guestScoreNumber
+    leadTeam.textContent = "Let the games begin!"
 }
 
 function foulHome() {
